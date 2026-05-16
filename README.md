@@ -25,6 +25,8 @@
 
 - 欢迎提交 Issue 或 Pull Request。请在 PR 中描述你的变更目的与测试步骤。
 
+![](https://xiaochopin.dpdns.org/27BEF85870EE31F8312E33F2B9FF1F30.webp)
+
 ### 免责声明🙀
 
 - 本项目仅为个人学习与便捷登录用途提供示例脚本。使用者须对其账号安全与合规性负责。
