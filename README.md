@@ -17,9 +17,11 @@
 
 2. 使用浏览器开发者工具（F12），清空`网络`内的内容，使用`控制台`，运行  `window.onbeforeunload = function(){ return "不跳转" }` 和 `doauthen();` 。
 
-3. 在`网络`内找到`InterFace.do?method=login`的 POST 请求，根据请求标头 cookie 项中的 `EPORTAL_COOKIE_USERNAME` ， `EPORTAL_COOKIE_PASSWORD` 和 `EPORTAL_COOKIE_SERVER` 的值，分别替换脚本中的 `USER_ID` ， `PASSWORD` 和 `SERVICE` 变量。
+3. 点击登录。
 
-4. 尝试运行。
+4. 在`网络`内找到`InterFace.do?method=login`的 POST 请求，根据请求标头 cookie 项中的 `EPORTAL_COOKIE_USERNAME` ， `EPORTAL_COOKIE_PASSWORD` 和 `EPORTAL_COOKIE_SERVER` 的值，分别替换脚本中的 `USER_ID` ， `PASSWORD` 和 `SERVICE` 变量。
+
+5. 尝试运行。
 
 ### 贡献👍
 
